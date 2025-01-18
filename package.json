@@ -1,13 +1,18 @@
 {
   "name": "track-change-extension",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A track change extension for tiptap editor. Just like the Office Word Revision.",
-  "keywords": ["tiptap", "trackchange","revision","extension"],
+  "keywords": [
+    "tiptap",
+    "trackchange",
+    "revision",
+    "extension"
+  ],
   "license": "MIT",
-  "author": "Ray Chen<ray_chenyuncai@163.com>",
+  "author": "boisduval",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenyuncai/tiptap-track-change-extension.git"
+    "url": "https://github.com/boisduval/tiptap-track-change-extension.git"
   },
   "files": [
     "dist/",
@@ -22,19 +27,19 @@
     "dev": "npm run clean && rollup -c -w"
   },
   "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^24.0.1",
-    "@tiptap/core": "^2.0.0-beta.220",
-    "@tiptap/pm": "^2.0.0-beta.220",
-    "rollup": "^3.17.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@tiptap/core": "^2.5.8",
+    "@tiptap/pm": "^2.11.2",
+    "rollup": "^3.29.5",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript2": "^0.34.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.220",
-    "@tiptap/pm": "^2.0.0-beta.220"
+    "@tiptap/core": "^2.5.8",
+    "@tiptap/pm": "^2.11.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
