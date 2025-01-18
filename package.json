@@ -1,5 +1,5 @@
 {
-  "name": "track-change-extension",
+  "name": "@boisduval/track-change-extension",
   "version": "1.1.0",
   "description": "A track change extension for tiptap editor. Just like the Office Word Revision.",
   "keywords": [
@@ -42,6 +42,7 @@
     "@tiptap/pm": "^2.11.2"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
